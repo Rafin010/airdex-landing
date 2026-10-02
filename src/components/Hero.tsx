@@ -68,7 +68,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="flex flex-col items-center gap-4"
         >
-          <a href="#download" className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-[#1DBF73] hover:bg-[#19a563] text-white rounded-full font-semibold text-lg transition-all shadow-lg hover:-translate-y-1">
+          <a href="/AirDEX-Windows-x64.zip" download className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-[#1DBF73] hover:bg-[#19a563] text-white rounded-full font-semibold text-lg transition-all shadow-lg hover:-translate-y-1">
             <Download className="w-5 h-5" />
             Download for Windows (.exe)
           </a>

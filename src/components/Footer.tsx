@@ -55,9 +55,12 @@ export default function Footer() {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6, delay: 0.6 }}
-        className="max-w-7xl mx-auto px-6 text-center text-sm text-gray-600 border-t border-gray-900 pt-8"
+        className="max-w-7xl mx-auto px-6 text-center text-sm text-gray-600 border-t border-gray-900 pt-8 flex flex-col md:flex-row items-center justify-between gap-4"
       >
-        &copy; {new Date().getFullYear()} AirDEX. All rights reserved.
+        <p>&copy; {new Date().getFullYear()} AirDEX. All rights reserved.</p>
+        <p className="flex items-center gap-1 font-medium text-gray-400">
+          Powered by: <a href="https://x010.tech" target="_blank" rel="noopener noreferrer" className="text-[#1DBF73] hover:underline">x010.tech</a>
+        </p>
       </motion.div>
     </footer>
   );
